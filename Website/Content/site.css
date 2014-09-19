@@ -1,0 +1,31 @@
+﻿body {
+	background-color: #999;
+}
+
+div.main {
+	background-color: #eee;
+}
+
+div.lane {
+	border: 1px solid #000;
+	margin-top:	10px;
+	margin-right: 10px;
+}
+
+div.lane:last-child  {
+	border: 1px solid #000;
+	margin-top:	10px;
+	margin-right: 0px;
+}
+
+div.draggable {
+	width: 100px;
+	height: 30px;
+	background-color: #ddd;
+	z-index: 999;
+}
+
+div.droppable {
+	border: 1px dashed #999;
+	min-height: 50px;
+}
